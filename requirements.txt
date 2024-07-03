@@ -1,4 +1,4 @@
-transformers
+transformers[AutoTokenizer]
 transformers[sentencepiece]
 datasets
 sacrebleu
