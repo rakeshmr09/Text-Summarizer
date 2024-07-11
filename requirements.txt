@@ -1,5 +1,8 @@
 transformers[AutoTokenizer]
 transformers[sentencepiece]
+transformers[AutoModelForSeq2SeqLM]
+transformers[TrainingArguments]
+transformers
 datasets
 sacrebleu
 rouge_score
@@ -18,6 +21,7 @@ ensure==1.0.2
 fastapi==0.78.0
 uvicorn==0.18.3
 Jinja2==3.1.2
+accelerate==0.27.0
 -e .
 
 # -e . is used for setup the libraries
